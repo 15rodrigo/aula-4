@@ -98,10 +98,9 @@ footer {
     margin-top: 20px;
 }
 
-main {
+.ConteudoContato {
     width: 940px;
     margin: 0 auto;
-
 }
 
 form {
@@ -169,6 +168,13 @@ form label, form legend{
         clear: left;
     }
 
+    .principal {
+        padding: 3em 0;
+        background: #fefefe;
+        width: 940px;
+        margin: 0 auto;
+    }
+
     .principal p {
         margin: 0 0 1em;
     }
@@ -188,15 +194,63 @@ form label, form legend{
         margin: 0 20px 20px 0;
     }
 
-    .imagembeneficios {
-        width: 60%;
-    }
-
     .Mapa {
         padding: 3em 0;
+        background: linear-gradient(#fefefe, #888888);
+       
+    }
+
+    .MapaConteudo {
+        width: 940px;
+        margin: 0 auto;
     }
 
     .Mapa p {
         margin: 0 0 2em;
         text-align: center;
+    }
+
+    .Beneficios {
+        padding: 3em 0;
+        background: #888888;
+        
+    }
+
+    .ConteudoBeneficio {
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .ListaBeneficios {
+        width: 40%;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .itens {
+        line-height: 1.5;
+    }
+
+    .itens:before {
+        content: '★';
+    }
+
+    .itens:first-child {
+        font-weight: bold;
+    }
+
+    .ImagemBeneficios {
+        width: 55%;
+        opacity: 1;
+        transition: 400ms;
+        box-shadow: 10px 10px 30px #000000;
+    }
+
+    .ImagemBeneficios:hover {
+        opacity: 0.3;
+    }
+    .video  {
+        width: 560px;
+        margin: 2em auto;
     }
