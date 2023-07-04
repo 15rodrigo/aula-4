@@ -1,0 +1,107 @@
+body 
+
+#Banner {
+    width: 100%;
+}
+
+header {
+    background: #bbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.titulo-principal {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 110px;
+    left: 70px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+    
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+p {
+    text-align: center;   
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.Beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+
+.listaBeneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15% ;
+}
+
+.imagembeneficios {
+    width:  50%;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 40px;
+}
+
+.Copyright {
+    color: #FFFFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
